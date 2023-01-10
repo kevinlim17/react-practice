@@ -8,13 +8,15 @@ import App from './App';
 import Library from './Chapter03/Library';
 import Clock from './Chapter_Elements/Clock';
 import CommentList from './Chapter_Components/CommentList';
-**/
 import NotificationList from './Chapter_State/NotificationList';
+**/
+
+import Accommodate from './Chapter_Hook/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>
 );
 
