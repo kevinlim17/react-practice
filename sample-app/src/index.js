@@ -13,14 +13,15 @@ import Accommodate from './Chapter_Hook/Accommodate';
 import ClassConfirmButton from './Chapter_Events/ConfirmButton_Class';
 import ConfirmButton from './Chapter_Events/ConfirmButton';
 import LandingPage from './Chapter_CondRendering/LandingPage';
+import AttendanceBook from './Chapter_List_and_Key/AttendanceBook';
 */
 
-import AttendanceBook from './Chapter_List_and_Key/AttendanceBook';
+import SignUp from './Chapter_Forms/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>
 );
 
