@@ -11,14 +11,15 @@ import CommentList from './Chapter_Components/CommentList';
 import NotificationList from './Chapter_State/NotificationList';
 import Accommodate from './Chapter_Hook/Accommodate';
 import ClassConfirmButton from './Chapter_Events/ConfirmButton_Class';
+import ConfirmButton from './Chapter_Events/ConfirmButton';
 **/
 
-import ConfirmButton from './Chapter_Events/ConfirmButton';
+import LandingPage from './Chapter_CondRendering/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>
 );
 
