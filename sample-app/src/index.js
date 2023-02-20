@@ -14,14 +14,15 @@ import ClassConfirmButton from './Chapter_Events/ConfirmButton_Class';
 import ConfirmButton from './Chapter_Events/ConfirmButton';
 import LandingPage from './Chapter_CondRendering/LandingPage';
 import AttendanceBook from './Chapter_List_and_Key/AttendanceBook';
+import SignUp from './Chapter_Forms/SignUp';
 */
 
-import SignUp from './Chapter_Forms/SignUp';
+import Calculator from './Chapter_SharedState/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <Calculator />
   </React.StrictMode>
 );
 
