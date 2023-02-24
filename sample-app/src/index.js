@@ -16,14 +16,15 @@ import LandingPage from './Chapter_CondRendering/LandingPage';
 import AttendanceBook from './Chapter_List_and_Key/AttendanceBook';
 import SignUp from './Chapter_Forms/SignUp';
 import Calculator from './Chapter_SharedState/Calculator';
+import ProfileCard from './Chapter_Composition/ProfileCard';
 */
 
-import ProfileCard from './Chapter_Composition/ProfileCard';
+import DarkOrNight from './Chapter_Context/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrNight />
   </React.StrictMode>
 );
 
