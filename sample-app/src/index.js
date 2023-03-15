@@ -17,14 +17,15 @@ import AttendanceBook from './Chapter_List_and_Key/AttendanceBook';
 import SignUp from './Chapter_Forms/SignUp';
 import Calculator from './Chapter_SharedState/Calculator';
 import ProfileCard from './Chapter_Composition/ProfileCard';
+import DarkOrNight from './Chapter_Context/DarkOrLight';
 */
 
-import DarkOrNight from './Chapter_Context/DarkOrLight';
+import Blocks from './Chapter_StyledComponents/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DarkOrNight />
+    <Blocks />
   </React.StrictMode>
 );
 
